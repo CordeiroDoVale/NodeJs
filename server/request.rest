@@ -1,0 +1,21 @@
+GET https://localhost:3101/users
+
+###
+
+POST https://localhost:3101/users
+Content-Type: application/json
+
+{
+    "name": "Cordeiro",
+    "password": "Carneiro"
+}
+
+###
+
+POST https://localhost:3101/users/login
+Content-Type: application/json
+
+{
+    "name": "Cordeiro",
+    "password": "Carneiro"
+}
